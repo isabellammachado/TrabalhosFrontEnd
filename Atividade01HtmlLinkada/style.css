@@ -1,0 +1,10 @@
+*{
+    margin:20px;
+    padding:10px;
+}
+#tabela{
+    text-decoration: none;
+    background-color: lightcyan;
+    border: 2px solid black;
+    width: 50%;
+}
