@@ -29,5 +29,26 @@ body{
     width: 40%;
 }
 #formulario{
-    
+    input[type="text"]{
+        font-size: 15px;
+        color: rgb(110, 110, 209)
+    }
+    input[type="radio"]{
+         accent-color: brown;
+    }
+    button[type="submit"]{
+        background-color: #3FAC36;
+        color: white;
+        cursor: pointer;
+    }
 }
+#iconesredessociais{
+   color:white;
+}
+.icone{
+    width: 60px;   
+    height: 60px;  
+    border-radius: 50%;
+    object-fit: cover;
+}
+
