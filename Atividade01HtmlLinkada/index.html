@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Página</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
     <!-- 10. Adicione uma âncora com a tag <a name="">; e linke para ela usando href="#id" -->
-     <p>Outra página HTML</p>
-    <a name="Página Inicial" href="../Atividade01/index.html">Voltar para página inicial</a>
-
+    <div id="titulo">
+     <h1>Outra página HTML</h1>
+     </div>
+     <a id="link" href="../Atividade01/index.html">Voltar para página inicial</a>
     <!-- 11. Adicione uma tabela HTML com pelo menos 3 colunas e 3 linhas. -->
     <h2>Tabela</h2>
 
@@ -37,6 +38,58 @@
         </tr>
     </table>
     </div>
+
+    <!-- 13. Insira um vídeo na página usando a tag <video>;, com controles e
+uma legenda opcional. -->
+
+<video width="320" height="240" controls>
+  <source src="./Assets/ReceitaRedVelvet.mp4" type="video/mp4">
+    <track src="./Assets/ReceitaRedVelvet.mp4" kind="subtitles" srclang="pt" label="Português">
+    </video>
+   <!-- 14. Adicione um áudio usando a tag &lt;audio&gt; com controles. -->
+
+   <!-- 15. Crie um formulário completo, com os campos de inputs, usando
+tipos de input, como checkbox, radio, e suas validações. -->
+
+    <form id="formulario">  
+        <h2>Formulário Completo</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label>Gênero:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br><br>
+
+        <label for="interesses">Interesses:</label>
+        <input type="checkbox" id="musica" name="interesses" value="musica">
+        <label for="musica">Música</label>
+        <input type="checkbox" id="esporte" name="interesses" value="esporte">
+        <label for="esporte">Esporte</label>
+        <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+        <label for="tecnologia">Tecnologia</label><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <!-- 16. Crie uma galeria de imagens, usando a tag <img> -->
+    <h3>Galteria de fotos</h3>
+    <img src="./Assets/download (1).jpeg" alt="Imagem Exemplo" class="imagem-exemplo">
+    <img src="./Assets/download (3).jpeg" alt="Imagem Exemplo" class="imagem-exemplo">
+    <img src="./Assets/download (2).jpeg" alt="Imagem Exemplo" class="imagem-exemplo">
+    <img src="./Assets/download.jpeg" alt="Imagem Exemplo" class="imagem-exemplo">
+
+    <!-- 17. Adicione ícones de redes sociais, pode usar imagens como se
+    fosse os ícones. -->
+    <div id="icones redes sociais">
+        <h2>Redes Sociais</h2>   
+            <img src="./Assets/Facebook.jpeg"  alt=" alt="Facebook" class="icone">  
+            <img src="./Assets/Instagram.jpeg" alt="Instagram" class="icone">
+            <img src="./Assets/WhatsApp.png" alt="WhatsApp" class="icone">
+            <img src="./Assets/Pinterest.jpeg" alt="Pinterest" class="icone">
+    </div>
+
 
 </body>
 </html>

@@ -2,9 +2,32 @@
     margin:20px;
     padding:10px;
 }
+body{
+    background-color:rgb(198, 245, 204);
+    font-family: sans-serif;
+}
+#titulo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgba(255, 0, 0, 0.521);
+}
+#link {
+    display: block;
+    text-align: center;
+    font-family:'Times New Roman';
+    font-size: 20px;
+    color:blue;
+}
+#link:hover{
+    color:red;
+    font-size:21px;
+}
 #tabela{
-    text-decoration: none;
-    background-color: lightcyan;
-    border: 2px solid black;
-    width: 50%;
+    background-color:azure;
+    border: 1px solid ;
+    width: 40%;
+}
+#formulario{
+    
 }
